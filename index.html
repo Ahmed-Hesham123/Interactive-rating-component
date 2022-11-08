@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- JS -->
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <!-- Main Start -->
+    <main>
+      <!-- Rating state start -->
+      <div class="parent-of-article">
+        <article id="ratingstate" class="rating-state">
+          <img src="images/icon-star.svg" alt="" />
+          <div class="main-text">
+            <h1>How did we do?</h1>
+            <p>
+              Please let us know how we did with your support request. All
+              feedback is appreciated to help us improve our offering!
+            </p>
+          </div>
+          <ul>
+            <li class="numbers">1</li>
+            <li class="numbers">2</li>
+            <li class="numbers">3</li>
+            <li class="numbers">4</li>
+            <li class="numbers">5</li>
+          </ul>
+          <button id="submit">Submit</button>
+        </article>
+        <!-- Rating state end -->
+
+        <!-- Thank you state start -->
+
+        <article id="thankstate" class="thank-state">
+          <img src="images/illustration-thank-you.svg" alt="" />
+          <p class="selected">
+            You selected <span id="rating" class="rating">5</span> out of 5
+          </p>
+          <h2>Thank you!</h2>
+          <p class="para">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </article>
+      </div>
+
+      <!-- Thank you state end -->
+    </main>
+    <!-- Main End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Ahmed Hesham</a>.
+      </div>
+    </footer>
+    <!-- Footer End -->
+  </body>
+</html>
